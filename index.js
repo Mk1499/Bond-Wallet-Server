@@ -27,7 +27,7 @@ const con = mysql.createConnection({
 app.get("/", function(req, res) {
 
     console.log("Welcome !!!!");
-    res.send("Done");
+    res.send("Welcome in MK server");
 })
 
 
